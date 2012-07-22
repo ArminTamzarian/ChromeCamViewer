@@ -1,0 +1,25 @@
+html, body {
+	width: 335px;
+}
+
+.ui-widget {
+	font-size: 8pt;
+}
+
+#show_controls {
+	width: 320px;
+	margin-top: 5px;
+	
+	border-radius: 3px;
+	background-color: #F2F5F7;
+	border: 1px solid #DDD;
+}
+
+#show_controls:hover {
+	background-color: #DDD;
+}
+
+#controls {
+	width: 320px;
+	display: none;
+}

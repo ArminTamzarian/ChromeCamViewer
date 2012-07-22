@@ -1,0 +1,57 @@
+<!DOCTYPE HTML> 
+<html>
+	<head>
+		<title></title>
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script src="js/jquery-ui.js" type="text/javascript"></script>
+		<script src="js/controls.js" type="text/javascript"></script>
+		<script src="js/popup.js" type="text/javascript"></script>
+
+		<link href="css/jquery-ui.css" rel="stylesheet" type="text/css"/>
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<link href="css/popup.css" rel="stylesheet" type="text/css"/>
+		<link href="css/controls.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+	 	<div id="camera_container" class="size1x">
+	 		<img id="camera_image" src="images/blank.png"/>
+	 		<div id="control_nw" class="control_button"></div>
+			<div id="control_n"  class="control_button"></div>
+			<div id="control_ne" class="control_button"></div>
+			<div id="control_w"  class="control_button"></div>
+			<div id="control_c"  class="control_button"></div>
+			<div id="control_e"  class="control_button"></div>
+			<div id="control_sw" class="control_button"></div>
+			<div id="control_s"  class="control_button"></div>
+			<div id="control_se" class="control_button"></div>
+	 	</div>
+	 	<div id="show_controls" class="center_div">&#0133;</div>
+ 	 	<div id="controls">
+	 		<div id="video_mode" class="control">
+		 		<input type="radio" id="video_mode_vga" name="video_mode" value="8" checked/><label for="video_mode_vga">320x240</label>
+		 		<input type="radio" id="video_mode_qvga" name="video_mode" value="32"/><label for="video_mode_qvga">640x480</label>
+	 		</div>
+			 		
+	 		<div id="refresh_mode" class="control">
+		 		<input type="radio" id="refresh_mode_50hz" name="refresh_mode" value="0" checked/><label for="refresh_mode_50hz">50Hz</label>
+		 		<input type="radio" id="refresh_mode_60hz" name="refresh_mode" value="1"/><label for="refresh_mode_60hz">60Hz</label>
+		 		<input type="radio" id="refresh_mode_outdoor" name="refresh_mode" value="2"/><label for="refresh_mode_outdoor">Outdoor</label>
+	 		</div>
+ 		
+ 			<br style="clear: both"/>
+ 			
+ 			<div id="brightness_container" class="control">
+	 			<div id="brightness"></div>
+	 		</div>
+ 		
+ 			<div id="contrast_container" class="control">
+		 		<div id="contrast"></div>
+	 		</div>
+	 		
+	 		<div class="center_div">
+	 			<input type="checkbox" id="flip_horizontal" value="2"/><label for="flip_horizontal" title="Flip Image Horizontally">&harr;</label>
+	 			<input type="checkbox" id="flip_vertical" value="1"/><label for="flip_vertical" title="Flip Image Vertically">&varr;</label>
+			</div>
+	 	</div>
+	</body>
+</html>

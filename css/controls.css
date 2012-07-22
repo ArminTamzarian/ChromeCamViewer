@@ -1,0 +1,146 @@
+#camera_container {	
+	position: relative;
+}
+
+.control_button {
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: absolute;
+	opacity: 0.3;
+}
+
+#control_nw:hover {
+	background-image: url(../images/controls/arrow-nw.png);
+}
+
+#control_n:hover {
+	background-image: url(../images/controls/arrow-n.png);
+}
+
+#control_ne:hover {
+	background-image: url(../images/controls/arrow-ne.png);
+}
+
+#control_w:hover {
+	background-image: url(../images/controls/arrow-w.png);
+}
+
+#control_c:hover {
+	background-image: url(../images/controls/center.png);
+}
+
+#control_e:hover {
+	background-image: url(../images/controls/arrow-e.png);
+}
+
+#control_sw:hover {
+	background-image: url(../images/controls/arrow-sw.png);
+}
+
+#control_s:hover {
+	background-image: url(../images/controls/arrow-s.png);
+}
+
+#control_se:hover {
+	background-image: url(../images/controls/arrow-se.png);
+}
+
+
+.size1x, .size1x img {
+	height: 240px;
+	width: 320px;
+}
+
+.size1x .control_button {
+	height: 80px;
+	width: 106px;
+}
+
+.size2x, .size2x img {
+	height: 480px;
+	width: 640px;
+}
+
+.size2x .control_button {
+	height: 160px;
+	width: 221px;
+}
+
+#control_nw, #control_n, #control_ne {
+	top: 0px;
+}
+
+#control_w, #control_c, #control_e {
+	top: 80px;
+}
+
+.size2x #control_w, .size2x #control_c, .size2x #control_e {
+	top: 160px;
+}
+
+#control_w, #control_c, #control_e {
+	top: 80px;
+}
+
+.size2x #control_w, .size2x #control_c, .size2x #control_e {
+	top: 160px;
+}
+
+#control_sw, #control_s, #control_se {
+	top: 160px;
+}
+
+.size2x #control_sw, .size2x #control_s, .size2x #control_se {
+	top: 320px;
+}
+
+#control_nw, #control_w, #control_sw {
+	left: 0px;
+}
+
+#control_n, #control_c, #control_s {
+	width: 108px;
+	left: 106px;
+}
+
+.size2x #control_n, .size2x #control_c, .size2x #control_s {
+	width: 216px;
+	left: 212px;
+}
+
+#control_ne, #control_e, #control_se {
+	left: 214px;
+}
+
+.size2x #control_ne, .size2x #control_e, .size2x #control_se {
+	left: 428px;
+}
+
+.control {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#video_mode {
+	float: left;
+}
+
+#refresh_mode {
+	float: right;
+}
+
+#brightness, #contrast {
+	top: 5px;
+}
+
+#brightness_container {
+	background: url(../images/controls/brightness.png) left center no-repeat;
+	padding-left: 30px;
+	height: 20px;
+}
+
+#contrast_container {
+	background: url(../images/controls/contrast.png) left center no-repeat;
+	padding-left: 30px;
+	height: 20px;
+}

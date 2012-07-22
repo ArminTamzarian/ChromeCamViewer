@@ -1,0 +1,39 @@
+* {
+	font-family: Arial;
+	color: #474A53;
+}
+
+body {
+	background-color: #ccc;
+}
+
+.options_border {
+	border-radius: 5px;
+	border: 1px solid #c6dcff;
+	background-color: #fff;
+	padding: 10px;
+	
+	width: 500px;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center_div {
+	text-align: center;
+}
+
+#info_message {
+	display: none;
+	border: 1px solid #EF3257;
+	border-radius: 5px;
+	background-color: #EEEEE0;
+	
+	color: #EF3257;
+	text-align: center;
+	
+	width: 300px;
+	margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}

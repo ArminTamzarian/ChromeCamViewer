@@ -1,0 +1,19 @@
+{
+	"name": "Chrome Cam Viewer",
+	"version": "1.0",
+	"description": "An extension for viewing camera images from Netware-compatible IP cameras.",
+	"browser_action": {
+    	"default_icon": "images/icon-16.png",
+    	"popup": "popup.html"
+  	},
+  	"icons": {
+	  	"16"  : "images/icon-16.png",
+		"48"  : "images/icon-48.png",
+		"128" : "images/icon-128.png"
+	},
+	"background_page": "background.html",
+	"options_page": "options.html",
+	"permissions": [
+    	"http://*/videostream.cgi"
+  	]
+}

@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Chrome Cam Viewer Options</title>		
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/options.js"></script>
+		
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div class="options_border">
+			<div class="center_div">
+				<h1>Chrome Cam Viewer Options</h1>
+			</div>
+			
+			<hr/>
+			<table>
+				<tr>
+					<td>Camera Address</td>
+					<td><input id="camera_address" type="text" placeholder="http://example.com:80"/></td>
+				</tr>
+				<tr>
+					<td>Username</td>
+					<td><input id="camera_username" type="text" placeholder="username"/></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input id="camera_password" type="password" placeholder="password"/></td>
+				</tr>
+			</table>			
+			<div class="center_div">
+				<input id="options_update" type="button" value="Update"/>
+			</div>
+            
+         	<div id="info_message"></div>
+		</div>
+	</body>
+</html>
